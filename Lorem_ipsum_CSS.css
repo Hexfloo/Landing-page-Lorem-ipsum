@@ -1,0 +1,99 @@
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: monospace; 
+}
+
+#picofme {
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+h1 {
+    text-decoration: #faca46 underline wavy;
+    letter-spacing: 0.8em;
+    font-size: 300%;
+    font-family: monospace; 
+}
+
+p {
+    font-size: 200%;
+    width: 100%;
+}
+
+ul {
+    background-color: rgb(231, 231, 231);
+    padding: 1%;
+    padding-left: 2%;
+    font-size: 100%;
+    margin-top: 0;
+
+}
+li {
+    display: inline;
+}
+
+abbr {
+    text-decoration: #faca46 underline wavy;
+}
+
+abbr:hover {
+    color:#faca46;
+}
+
+.container {
+    border-top-left-radius: 5% 50%;
+    border-top-right-radius: 3% 60%;
+    border-bottom-left-radius: 3% 60%;
+    border-bottom-right-radius: 5% 50%;
+  
+    display: block;
+    position: relative;
+    border: solid 3px #6e7491;
+    padding: 2% 4% 2% 5%;
+    max-width: 47%;
+    min-width: 40%;
+    width: 70%;
+    margin: 3% auto;
+
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+}
+
+.container:hover {
+    transform: rotate(1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+ 
+.footernav {
+    margin-bottom: 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    border: none;
+    padding: 1%;
+    background-color: rgb(231, 231, 231);
+} 
+button:hover {
+    transform: rotate(-6deg);
+}
+
+a {
+    font-family: monospace;
+    background-color: none;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #faca46;
+    text-decoration: underline overline wavy;
+    text-decoration-thickness: 10%;
+}
